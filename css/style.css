@@ -1,0 +1,31 @@
+.animated-info {
+  width: 360px;
+}
+.small-text {
+  padding-left: 0;
+}
+
+.owl-carousel .owl-nav .owl-prev:before {
+  font-size: 40px;
+}
+
+.owl-carousel .owl-nav .owl-next:before {
+  font-size: 40px;
+}
+.owl-carousel .owl-nav .owl-prev:before {
+  content: "\e833";
+  left: -10px;
+}
+
+.owl-carousel .owl-nav .owl-next:before {
+  content: "\e836";
+  right: -15px;
+}
+.full-screen {
+  padding: 3rem 0;
+}
+
+.skiii button {
+  padding: 2px;
+  margin: 4px;
+}

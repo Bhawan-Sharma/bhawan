@@ -1,0 +1,65 @@
+.container-projects {
+    padding: 80px 0;
+  }
+  .content {
+    position: relative;
+  }
+
+  .text-center{
+    margin-bottom:10px;
+  }
+  .screen {
+      display: block;
+      width: 300px;
+      height: 350px;
+      overflow: hidden;
+      position: relative;
+      border: 2px solid #b3b3b3;
+      border-radius: 1px;
+      margin: 0 auto;
+  }
+  .screen img {
+      bottom: -664px;
+      width: 100%;
+      height: auto;
+      position: absolute;
+      z-index: 0;
+    margin:0;
+    padding:0;
+      -webkit-transition: top 11s;
+      -moz-transition: top 11s;
+      -ms-transition: top 11s;
+      -o-transition: top 11s;
+      transition: bottom 11s;
+  }
+  .screen:hover img {
+    bottom: 0;
+    -webkit-transition: all 5s;
+    -moz-transition: all 5s;
+    -ms-transition: all 5s;
+    -o-transition: all 5s;
+    transition: all 5s;
+  }
+
+  .screen .img-2 {
+    bottom: -442px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+  margin:0;
+  padding:0;
+    -webkit-transition: top 11s;
+    -moz-transition: top 11s;
+    -ms-transition: top 11s;
+    -o-transition: top 11s;
+    transition: bottom 11s;
+}
+.screen:hover .img-2 {
+  bottom: 0;
+  -webkit-transition: all 5s;
+  -moz-transition: all 5s;
+  -ms-transition: all 5s;
+  -o-transition: all 5s;
+  transition: all 5s;
+}
